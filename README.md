@@ -20,15 +20,22 @@ Next, we looked at the outcomes of all theatre-related Kickstarters based on the
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-There seems to be a spike in the number of successful theatre campaigns between April-May. We would suggest launching a kickstarter campaign during these months to maximize result.
+What are two conclusions you can draw about the Outcomes based on Launch Date?
+- There seems to be a spike in the number of successful theatre campaigns between April-May. We would suggest launching a kickstarter campaign during these months to maximize result.
 
-Avoid launching in November or December. There was an increase of failed campaigns and a decrease in successful campaigns.
+- Avoid launching in November or December. There was an increase of failed campaigns and a decrease in successful campaigns.
 
-- What can you conclude about the Outcomes based on Goals?
+What can you conclude about the Outcomes based on Goals?
 
-For plays, Kickstarters with a fundraising goal of $10,000 were only 54% successful. 
+- For plays, Kickstarters with a fundraising goal of $10,000 were only successful 54% of the time. Kickstarters in the next category down ($5,000-9$999) were successful 73% of the time, so Louise may want to ask for less money. 
 
-- What are some limitations of this dataset?
+- However, there was a increase in the percentage of successful campaigns with a goal between $30,000-$44,999, before a steep drop-off after $45,000. Louise might want to look closely at these successful campaigns to see if there are any similarities with her project.
 
-- What are some other possible tables and/or graphs that we could create?
+What are some limitations of this dataset?
+
+- It would be helpful to have more information about each project so we can determine whether or not their fundraising goals are realistic. Besides the category/subcategory for each Kickstarter, it would help to collect data more specific data about the projects location (city, state) and whether rewards were offered for donating a certain amount.
+
+What are some other possible tables and/or graphs that we could create?
+
+-Table: Average donation for each of the Theatre sub-categories  
+-Graph: Outcomes based on length of campaign (launch date-end date)
