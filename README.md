@@ -2,17 +2,17 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-This project will look at data from several Kickstarter campaigns to analyze trends about the success of crowdsourcing campains, with specific focus on campaigns related to theatre projects in the US. 
+This project will look at data from several Kickstarter campaigns to analyze trends about the success of crowdsourcing campaigns, with specific focus on campaigns related to theatre projects in the US. 
 ### Purpose
-Louise is a playwright who would like to start a crowdfunding campaign to fund her new play, Fever. Louise estimates that she will need to raise $10,000. This project will determine the factors that will help Loiuse reach her desired fundraising goal.
+Louise is a playwright who would like to start a crowdfunding campaign to fund her new play, Fever. Louise estimates that she will need to raise $10,000. This project will determine the factors that will help Louise reach her desired fundraising goal.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-First, we looked at the funding outcomes of all 1,369 theatre-related Kickstarters based on the month that those campaigns were created. We described "outcomes" as either successful (campaign met funding goal), failed (campaign did not meet goal), or canceled (campaign was taken offline before goal was met). We created a pivot-table to give us the count of our all Kickstarter outcomes in out dataset per month, and filtered those results to only show the "theatre" campaigns. Nect, we created a pivot chart to visualize the results:
+First, we looked at the funding outcomes of all 1,369 theatre-related Kickstarters based on the month that those campaigns were created. We described "outcomes" as either successful (campaign met funding goal), failed (campaign did not meet goal), or canceled (campaign was taken offline before goal was met). We created a pivot-table to give us the count of our all Kickstarter outcomes in our dataset per month, and filtered those results to only show the "theatre" campaigns. Next, we created a pivot chart to visualize the results:
 
 ### Analysis of Outcomes Based on Goals
-Next, we looked at the outcomes of all theatre-related Kickstarters based on their stated fundraising goal. To group the Kickstarter goals, we created 12 categories, ranging from less than $1000 to more than $50,000. Next, we used the COUNTIFS function to find the nmber of successful, failed, and canceled campaigns in the "plays" subcategory based on their goal amount. We converted these count into percentages and created a line graph to visualize the results:
+Next, we looked at the outcomes of all theatre-related Kickstarters based on their stated fundraising goal. To group the Kickstarter goals, we created 12 categories, ranging from less than $1000 to more than $50,000. Next, we used the COUNTIFS function to find the nmber of successful, failed, and canceled campaigns in the "plays" subcategory based on their goal amount. We converted these counts into percentages and created a line graph to visualize the results:
 
 
 
@@ -33,9 +33,8 @@ What can you conclude about the Outcomes based on Goals?
 
 What are some limitations of this dataset?
 
-- It would be helpful to have more information about each project so we can determine whether or not their fundraising goals are realistic. Besides the category/subcategory for each Kickstarter, it would help to collect data more specific data about the projects location (city, state) and whether rewards were offered for donating a certain amount.
+- It would be helpful to have more information about each project so we can determine whether or not their fundraising goals are realistic. Besides the category/subcategory for each Kickstarter, it would help to collect data more specific data about the projects' location (city, state) and whether rewards were offered for donating a certain amount.
 
 What are some other possible tables and/or graphs that we could create?
 
--Table: Average donation for each of the Theatre sub-categories  
--Graph: Outcomes based on length of campaign (launch date-end date)
+-"Outcomes Based on Length of Campaign" table and line graph. Similar to the "Outcomes based on Goals" chart, we could create categories for how long each campaign was open (betweem 1 month - 2 years) based on their launch dates and end dates. This would help Louise find the length of the average theatre Kickstarter, and help her determine how long she should plan to fundraise. 
