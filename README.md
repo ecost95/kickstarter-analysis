@@ -2,22 +2,32 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-
+This project will look at data from several Kickstarter campaigns to analyze trends about the success of crowdsourcing campains, with specific focus on campaigns related to theatre projects in the US. 
 ### Purpose
+Louise is a playwright who would like to start a crowdfunding campaign to fund her new play, Fever. Louise estimates that she will need to raise $10,000. This project will determine the factors that will help Loiuse reach her desired fundraising goal.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
+First, we looked at the funding outcomes of all 1,369 theatre-related Kickstarters based on the month that those campaigns were created. We described "outcomes" as either successful (campaign met funding goal), failed (campaign did not meet goal), or canceled (campaign was taken offline before goal was met). We created a pivot-table to give us the count of our all Kickstarter outcomes in out dataset per month, and filtered those results to only show the "theatre" campaigns. Nect, we created a pivot chart to visualize the results:
 
 ### Analysis of Outcomes Based on Goals
+Next, we looked at the outcomes of all theatre-related Kickstarters based on their stated fundraising goal. To group the Kickstarter goals, we created 12 categories, ranging from less than $1000 to more than $50,000. Next, we used the COUNTIFS function to find the nmber of successful, failed, and canceled campaigns in the "plays" subcategory based on their goal amount. We converted these count into percentages and created a line graph to visualize the results:
+
+
 
 ### Challenges and Difficulties Encountered
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+There seems to be a spike in the number of successful theatre campaigns between April-May. We would suggest launching a kickstarter campaign during these months to maximize result.
+
+Avoid launching in November or December. There was an increase of failed campaigns and a decrease in successful campaigns.
 
 - What can you conclude about the Outcomes based on Goals?
+
+For plays, Kickstarters with a fundraising goal of $10,000 were only 54% successful. 
 
 - What are some limitations of this dataset?
 
