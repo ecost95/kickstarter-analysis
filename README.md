@@ -10,10 +10,11 @@ Louise is a playwright who would like to start a crowdfunding campaign to fund h
 
 ### Analysis of Outcomes Based on Launch Date
 First, we looked at the funding outcomes of all 1,369 theatre-related Kickstarters based on the month that those campaigns were created. We described "outcomes" as either successful (campaign met funding goal), failed (campaign did not meet goal), or canceled (campaign was taken offline before goal was met). We created a pivot-table to give us the count of our all Kickstarter outcomes in our dataset per month, and filtered those results to only show the "theatre" campaigns. Next, we created a pivot chart to visualize the results:
+![Outcomes based on launch date](https://raw.githubusercontent.com/ecost95/kickstarter-analysis/main/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 Next, we looked at the outcomes of all theatre-related Kickstarters based on their stated fundraising goal. To group the Kickstarter goals, we created 12 categories, ranging from less than $1000 to more than $50,000. Next, we used the COUNTIFS function to find the nmber of successful, failed, and canceled campaigns in the "plays" subcategory based on their goal amount. We converted these counts into percentages and created a line graph to visualize the results:
-
+![Outcomes based on goals](https://raw.githubusercontent.com/ecost95/kickstarter-analysis/main/Outcomes_vs_Goals.png)
 
 
 ### Challenges and Difficulties Encountered
